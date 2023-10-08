@@ -1,0 +1,18 @@
+<head>
+<script type="text/javascript" src="o3dv.min.js"></script>
+</head>
+<body>
+<div class="online_3d_viewer"
+    style="width: 800px; height: 600px;"
+    model="https://raw.githubusercontent.com/Nold360/portable-models/main/assets/step/Switch Joystick.STEP">
+</div>
+
+<script type="text/javascript">
+window.addEventListener ('load', () => {
+    // tell the engine where to find the libs folder
+    OV.SetExternalLibLocation ('libs');
+    // init all viewers on the page
+    OV.Init3DViewerElements ();
+});
+  </script>
+</body>
